@@ -92,7 +92,7 @@ caps = {
     }
 
 
-# 获得屏幕尺寸数据
+
 def getSize():
     x = driver.get_window_size()['width']
     y = driver.get_window_size()['height']
@@ -143,7 +143,7 @@ def data():
 
 
 if __name__ == '__main__':
- # 链接app
+ 
     driver = webdriver.Remote('http://localhost:4723/wd/hub', caps)
     time.sleep(2)
     # 首页输入框
