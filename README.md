@@ -1,4 +1,4 @@
-laravel_spider.php
+laravelSpider.php
 创建命令
 1. 运行命令行创建命令
 php artisan make:command MultithreadingRequest --command=test:multithreading-request
