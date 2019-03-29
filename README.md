@@ -1,7 +1,7 @@
 
 工具：python+Charles+appium+mitmproxy+xpath
 
-通过对小红书微信小程序进行抓包分析，得到如下api
+通过对小红书微信小程序进行抓包分析，得到如下api,但是会过期
 （Through the small red book WeChat small program catch package analysis, get the following API）
 
 Host：https://www.xiaohongshucom
