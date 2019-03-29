@@ -1,7 +1,7 @@
 laravelSpider.php
 创建命令
 1. 运行命令行创建命令
-php artisan make:command MultithreadingRequest --command=test:multithreading-request
+php artisan make:command laravelSpider --command=test:multithreading-request
 
 2. 注册命令
 编辑 app/Console/Kernel.php，在 $commands 数组中增加：
