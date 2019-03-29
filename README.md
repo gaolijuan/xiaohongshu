@@ -1,3 +1,19 @@
+laravel_spider.php
+创建命令
+1. 运行命令行创建命令
+php artisan make:command MultithreadingRequest --command=test:multithreading-request
+
+2. 注册命令
+编辑 app/Console/Kernel.php，在 $commands 数组中增加：
+Commands\MultithreadingRequest::class,
+
+3.运行：
+php artisan test:multithreading-request
+
+
+
+
+
 
 工具：python+Charles+appium+mitmproxy+xpath
 
