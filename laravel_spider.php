@@ -6,7 +6,7 @@ use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Console\Command;
 
-class laravel_spider extends Command
+class laravelSpider extends Command
 {
     private $totalPageCount;
     private $counter        = 1;
